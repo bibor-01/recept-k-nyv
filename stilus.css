@@ -1,0 +1,46 @@
+@charset "utf-8";
+header h1{
+    text-align: center;
+}
+body{
+    background-image: url("kepek/kep1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+main{
+    background-color: #e6ccb3;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+main, footer, header,article, section, div{
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+table,td,th{
+    margin: auto;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
+.hatter{
+    background-color: #d2a679;
+}
+img{
+    width: 100%;
+}
+footer{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
